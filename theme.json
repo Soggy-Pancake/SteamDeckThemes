@@ -1,0 +1,29 @@
+{
+    "name": "Colorful Recent Game Backgrounds",
+    "version": "v1.0",
+    "author": "Soggy_Pancake",
+    "manifest_version": 4,
+    "target": "SP",
+    "description": "Make the recent games background more colorful!",
+    "patches": {
+        "Full Color": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes":{
+                    "Colorful.css": ["SP"]
+                }
+            }
+        },
+        
+        "No Side Shadow": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "NoSideShadow.css": ["SP"]
+                }
+            }
+        }
+    }
+}
