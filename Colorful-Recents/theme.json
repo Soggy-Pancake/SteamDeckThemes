@@ -3,7 +3,7 @@
     "version": "v1.0",
     "author": "Soggy_Pancake",
     "manifest_version": 4,
-    "target": "SP",
+    "target": "Background",
     "description": "Make the recent games background more colorful!",
     "patches": {
         "Full Color": {
